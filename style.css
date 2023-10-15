@@ -1,4 +1,4 @@
-:root{
+ :root{
     --bg-color: rgb(20, 20, 20);
     --card-color: rgb(23, 23, 23);
 }
@@ -49,9 +49,7 @@ body{
     width: calc(100% - 20px);
 }
 
-#cards:hover> .card > .card-border {
-    opacity: 1;
-}
+
 
 .card:hover::before {
     opacity: 1;
@@ -76,10 +74,6 @@ body{
     z-index: 3;
 }
 
-.card > .card-content {
-    background: radial-gradient(400px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.03),transparent 40%);
-    z-index: 1;
-}
 
 
 .card > .card-content {
@@ -108,38 +102,38 @@ body{
 .des{
     position: absolute;
     top: 83%;
-    left: 49%;
+    left: 48%;
     transform: translate(-79%, -50%);
 }
 
 .des2{
     position: absolute;
     top: 80%;
-    left: 42%;
+    left: 43%;
     transform: translate(-79%, -50%);
 }
 .des3{
     position: absolute;
     top: 80%;
-    left: 37%;
+    left: 38%;
     transform: translate(-79%, -50%);
 }
 .des4{
     position: absolute;
     top: 80%;
-    left: 39%;
+    left: 40%;
     transform: translate(-79%, -50%);
 }
 .des5{
     position: absolute;
     top: 80%;
-    left: 37%;
+    left: 38%;
     transform: translate(-79%, -50%);
 }
 .des6{
     position: absolute;
     top: 80%;
-    left: 39%;
+    left: 40%;
     transform: translate(-79%, -50%);
 }
 
